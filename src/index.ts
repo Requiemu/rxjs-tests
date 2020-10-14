@@ -13,8 +13,11 @@ require('./case/basic');
 // splitLog('ajax');
 // require('./case/ajax');
 
-splitLog('fromEvent');
-require('./case/fromEvent');
+// splitLog('fromEvent');
+// require('./case/fromEvent');
+
+splitLog('flatMap');
+require('./case/flatMap');
 
 function splitLog(name) {
     console.log(`==============${name}===============`);
