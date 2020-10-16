@@ -22,8 +22,14 @@ require('./case/basic');
 // splitLog('subject');
 // require('./case/subject');
 
-splitLog('externalState');
-require('./case/externalState');
+// splitLog('externalState');
+// require('./case/externalState');
+
+// splitLog('merge');
+// require('./case/merge');
+
+splitLog('switchMap');
+require('./case/switchMap');
 
 function splitLog(name) {
     console.log(`==============${name}===============`);
